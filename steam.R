@@ -1,8 +1,9 @@
 
-  
+  steamid <- "76561197973625640"
   json_file1 <- "http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key="
-  Json_file2<-  "&steamid=76561197973625640&include_appinfo=1&format=json"
-  json_file <-paste(json_file1,key,Json_file2)
+  json_file2<-  "&steamid="
+  json_file3<- "&include_appinfo=1&format=json"
+  json_file <-paste(json_file1,key,json_file2,steamid,json_file3,sep="")
   
   json_data <- fromJSON(paste(readLines(json_file), collapse=""))
   gamestatshttp<-"http://steamcommunity.com/profiles/76561197973625640/stats/440&format=json"
