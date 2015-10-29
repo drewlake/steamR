@@ -8,7 +8,9 @@ gamelist <- function (key,id = "76561197973625640") {
   json_file <-
     paste(json_file1,key,json_file2,id,json_file3,sep = "")
   
-  list <-suppressWarnings(json_data <- fromJSON(paste(readLines(json_file), collapse = "")))
+  list <-suppressWarnings(fromJSON(paste(readLines(json_file), collapse = "")))
   list$response$games
+  
 }
+  'url <- "http://store.steampowered.com/api/appdetails/?appids=220"'
 
