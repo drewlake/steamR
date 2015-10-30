@@ -12,5 +12,9 @@ gamelist <- function (key,id = "76561197973625640") {
   list$response$games
   
 }
-  'url <- "http://store.steampowered.com/api/appdetails/?appids=220"'
+  
+gamedata <- function (key, gameid = "220"){
+url <- paste( "http://store.steampowered.com/api/appdetails/?appids=",gameid,sep="")
 
+list <-suppressWarnings(fromJSON(paste(readLines(url), collapse = "")))
+}
