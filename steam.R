@@ -28,6 +28,5 @@ gamedata <- function (gameid = "220") {
     suppressWarnings(fromJSON(paste(readLines(url), collapse = "")))
   list<-list[[gameid]]
   list<-list$data
-  rbindlist(list,fill=TRUE)
   
   }
