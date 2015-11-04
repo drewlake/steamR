@@ -1,3 +1,7 @@
+#' Steam Games
+#' 
+#' gets steam geames needs a valid steam api key
+#' @export
 games <- function (key,id = "76561197973625640") {
   library("rjson", lib.loc = "~/R/win-library/3.2")
   library("data.table", lib.loc = "~/R/win-library/3.2")

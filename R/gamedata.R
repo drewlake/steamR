@@ -1,3 +1,7 @@
+#' Game Data
+#' 
+#' Data about a specific game
+#' @export
 
 gamedata <- function (gameid = "220") {
   library("rjson", lib.loc = "~/R/win-library/3.2")

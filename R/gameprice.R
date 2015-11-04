@@ -1,7 +1,11 @@
+#' Game Price
+#' 
+#' Price of a game
+#' @export
 gameprice <- function (gameid = "220") {
   library("rjson", lib.loc = "~/R/win-library/3.2")
   library("data.table", lib.loc = "~/R/win-library/3.2")
-  paste("http://store.steampowered.com/api/appdetails/?appids=",gameid,sep =
+  url<-paste("http://store.steampowered.com/api/appdetails/?appids=",gameid,sep =
           "")
   
   list <-
