@@ -9,4 +9,7 @@ gameprice(gameid = "220")
 \description{
 Price of a game
 }
+\note{
+Maximum of 200 per 5 mins
+}
 
