@@ -7,6 +7,6 @@
 news(app = "440", count = "3")
 }
 \description{
-needs a valid steam api key
+Data frame for steam game news
 }
 

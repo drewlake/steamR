@@ -2,7 +2,7 @@
 
 #' Latest news for a game
 #' 
-#' needs a valid steam api key
+#' Data frame for steam game news
 #' @export
 news <- function (app = "440",count="3") {
   library("rjson", lib.loc = "~/R/win-library/3.2")
