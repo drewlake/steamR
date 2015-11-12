@@ -4,7 +4,7 @@
 #' 
 #' Data frame for steam game news
 #' @export
-news <- function (app = "440",count="3") {
+gnews <- function (app = "440",count="3") {
   library("rjson", lib.loc = "~/R/win-library/3.2")
   library("data.table", lib.loc = "~/R/win-library/3.2")
   json_file1 <-
