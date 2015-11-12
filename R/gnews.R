@@ -19,3 +19,5 @@ gnews <- function (app = "440",count="3") {
 
   rbindlist(list$appnews$newsitems,fill = TRUE)
 }
+
+

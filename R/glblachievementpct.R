@@ -1,7 +1,3 @@
-'http://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v0002/?gameid=377160&format=xml'
-
-
-
 #' Global achievement percentage for a game
 #' 
 #' @export
