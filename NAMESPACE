@@ -3,4 +3,5 @@
 export(gamedata)
 export(gameprice)
 export(games)
+export(glbachieve)
 export(news)
