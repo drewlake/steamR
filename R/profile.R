@@ -17,6 +17,6 @@ stmprofile <- function (key,id = "76561197973625640") {
   
   list <-
     suppressWarnings(fromJSON(paste(readLines(json_file), collapse = "")))
-  list
+
   rbindlist(list$response$players,fill = TRUE)
 }
