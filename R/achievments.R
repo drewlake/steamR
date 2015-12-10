@@ -2,7 +2,7 @@
 #' 
 #' Returns list for user stats for a game
 #' @export
-glbstats <- function (app = "17740", key, steamid="76561197972495328") {
+usrstats <- function (app = "17740", key, steamid="76561197972495328") {
   library("rjson", lib.loc = "~/R/win-library/3.2")
   library("data.table", lib.loc = "~/R/win-library/3.2")
   json_file1 <-
