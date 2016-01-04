@@ -1,5 +1,3 @@
-
-
 #' Latest news for a game
 #' 
 #' Data frame for steam game news
@@ -19,5 +17,3 @@ gnews <- function (app = "440",count="3") {
 
   rbindlist(list$appnews$newsitems,fill = TRUE)
 }
-
-
