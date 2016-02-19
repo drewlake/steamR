@@ -15,6 +15,5 @@ stmAchieve<- function (key,id = "76561197973625640") {
   
   list <-
     suppressWarnings(fromJSON(paste(readLines(json_file), collapse = "")))
-  list
-  rbindlist(list$playerstats,fill = TRUE)
+  rbindlist(list$playerstats$achievements,fill = TRUE)
 }
