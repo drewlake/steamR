@@ -14,5 +14,6 @@ gameschema <- function (key,gameid = "377160") {
     suppressWarnings(fromJSON(paste(readLines(url), collapse = "")))
   list <- list[[gameid]]
   list <- list$data
+  list
   
 }

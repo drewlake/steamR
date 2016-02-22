@@ -11,5 +11,6 @@ gameprice <- function (gameid = "220") {
   list <- suppressWarnings(fromJSON(paste(readLines(url), collapse = "")))
   list <- list[[gameid]]
   list <- list$data$price_overview$final
+  list
   
 }
