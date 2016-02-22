@@ -2,9 +2,11 @@ Package: SteamR
 Title: Steam API for R
 Version: 0.0.0.3
 Authors@R: person("Andrew", "Lake", email = "lakegm@gmail.com", role = c("aut", "cre"))
-Description: Retieves and anaysis data from Valve's Steam network
+Description: Retieves and anaysis data from Valve's Steam network.
 Depends:
     R (>= 3.2.2)
-License: GNU2
+License: GPL-2
 LazyData: true
 RoxygenNote: 5.0.1
+Imports: data.table,
+    rjson
