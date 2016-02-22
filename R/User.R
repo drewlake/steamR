@@ -2,9 +2,9 @@
 #' 
 #' Returns list for user stats for a game
 #' @export
+#' @import data.table
+#' @import rjson
 usrstats <- function (key,app = "440", steamid="76561197972495328") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
   json_file1 <-
     "http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid="
   json_file2 <- "&key="

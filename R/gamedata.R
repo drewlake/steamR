@@ -2,10 +2,11 @@
 #' 
 #' Data about a specific game
 #' @export
+#' @import data.table
+#' @import rjson
 
 gamedata <- function (gameid = "220") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   url <-
     paste("http://store.steampowered.com/api/appdetails/?appids=",gameid,sep =
             "")

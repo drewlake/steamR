@@ -1,9 +1,10 @@
 #' Global achievement percentage for a game
 #' 
 #' @export
+#' @import data.table
+#' @import rjson
 glbachieve <- function (app = "440") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   json_file1 <-
     "http://api.steampowered.com/ISteamUserStats/GetGlobalAchievementPercentagesForApp/v0002/?gameid="
   json_file2 <- "&format=json"

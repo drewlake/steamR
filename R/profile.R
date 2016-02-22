@@ -4,9 +4,10 @@
 #' 
 #' gets steam profile, needs a valid steam api key
 #' @export
+#' @import data.table
+#' @import rjson
 stmprofile <- function (key,id = "76561197973625640") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   json_file1 <-
     "http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key="
   

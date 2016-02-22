@@ -2,9 +2,9 @@
 #' 
 #' gets recent steam geames needs a valid steam api key
 #' @export
+#' @import data.table
+#' @import rjson
 rcntgames <- function (key,id = "76561197973625640") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
   json_file1 <-
     "http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key="
   json_file2 <-  "&steamid="

@@ -2,9 +2,10 @@
 #' 
 #' get steam achievment list
 #' @export
+#' @import data.table
+#' @import rjson
 stmAchieve<- function (key,id = "76561197973625640") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   json_file1 <-
     "http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key="
   

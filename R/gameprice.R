@@ -3,9 +3,10 @@
 #' Price of a game
 #' @note Maximum of 200 per 5 mins
 #' @export
+#' @import data.table
+#' @import rjson
 gameprice <- function (gameid = "220") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   url<-paste("http://store.steampowered.com/api/appdetails/?appids=",gameid,sep =
           "")
   list <- suppressWarnings(fromJSON(paste(readLines(url), collapse = "")))

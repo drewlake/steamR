@@ -2,9 +2,10 @@
 #' 
 #' get friends list needs key
 #' @export
+#' @import data.table
+#' @import rjson
 friend <- function (key,id = "76561197973625640") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   json_file1 <-
     "http://api.steampowered.com/ISteamUser/GetFriendList/v0001/?key="
   
@@ -16,5 +17,5 @@ friend <- function (key,id = "76561197973625640") {
   list <-
     suppressWarnings(fromJSON(paste(readLines(json_file), collapse = "")))
   list
-  rbindlist(frnds$friendslist$friends,fill = TRUE)
+  rbindlist(list$friendslist$friends,fill = TRUE)
 }

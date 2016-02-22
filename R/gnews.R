@@ -2,9 +2,10 @@
 #' 
 #' Data frame for steam game news
 #' @export
+#' @import data.table
+#' @import rjson
 gnews <- function (app = "440",count="3") {
-  library("rjson", lib.loc = "~/R/win-library/3.2")
-  library("data.table", lib.loc = "~/R/win-library/3.2")
+
   json_file1 <-
     "http://api.steampowered.com/ISteamNews/GetNewsForApp/v0002/?appid="
   json_file2 <-  "&count="
