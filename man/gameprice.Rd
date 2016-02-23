@@ -6,6 +6,9 @@
 \usage{
 gameprice(gameid = "220")
 }
+\arguments{
+\item{gameid}{Steam game id}
+}
 \description{
 Price of a game
 }

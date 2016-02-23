@@ -4,6 +4,8 @@
 #' @export
 #' @import data.table
 #' @import rjson
+#' @param key Steam API key
+#' @param id Steam User ID
 rcntgames <- function (key,id = "76561197973625640") {
   json_file1 <-
     "http://api.steampowered.com/IPlayerService/GetRecentlyPlayedGames/v0001/?key="

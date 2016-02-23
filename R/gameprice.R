@@ -5,6 +5,7 @@
 #' @export
 #' @import data.table
 #' @import rjson
+#' @param gameid Steam game id
 gameprice <- function (gameid = "220") {
 
   url<-paste("http://store.steampowered.com/api/appdetails/?appids=",gameid,sep =

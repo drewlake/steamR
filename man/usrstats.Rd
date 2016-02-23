@@ -4,7 +4,14 @@
 \alias{usrstats}
 \title{User stats for a game}
 \usage{
-usrstats(key, app = "440", steamid = "76561197972495328")
+usrstats(key, gameid = "440", steamid = "76561197972495328")
+}
+\arguments{
+\item{key}{Steam API key}
+
+\item{gameid}{Steam game ID}
+
+\item{steamid}{Steam user ID}
 }
 \description{
 Returns list for user stats for a game

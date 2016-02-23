@@ -6,6 +6,11 @@
 \usage{
 gameschema(key, gameid = "377160")
 }
+\arguments{
+\item{key}{Steam API key}
+
+\item{gameid}{Steam game ID}
+}
 \description{
 Data about a specific game
 }

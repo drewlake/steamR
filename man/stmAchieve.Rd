@@ -6,6 +6,11 @@
 \usage{
 stmAchieve(key, id = "76561197973625640")
 }
+\arguments{
+\item{key}{Steam API key}
+
+\item{id}{Steam user ID}
+}
 \description{
 get steam achievment list
 }

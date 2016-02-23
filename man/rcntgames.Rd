@@ -6,6 +6,11 @@
 \usage{
 rcntgames(key, id = "76561197973625640")
 }
+\arguments{
+\item{key}{Steam API key}
+
+\item{id}{Steam User ID}
+}
 \description{
 gets recent steam geames needs a valid steam api key
 }

@@ -4,7 +4,12 @@
 \alias{glbstats}
 \title{Global stats for a game}
 \usage{
-glbstats(app = "17740", stat = "global.map.emp_isle")
+glbstats(gameid = "17740", stat = "global.map.emp_isle")
+}
+\arguments{
+\item{gameid}{Steam game ID}
+
+\item{stat}{name of achievent}
 }
 \description{
 Returns list for gloabl stats for a game

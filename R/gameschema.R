@@ -4,6 +4,8 @@
 #' @export
 #' @import data.table
 #' @import rjson
+#' @param key Steam API key
+#' @param gameid Steam game ID
 
 gameschema <- function (key,gameid = "377160") {
 

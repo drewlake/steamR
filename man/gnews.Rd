@@ -4,7 +4,12 @@
 \alias{gnews}
 \title{Latest news for a game}
 \usage{
-gnews(app = "440", count = "3")
+gnews(gameid = "440", count = "3")
+}
+\arguments{
+\item{gameid}{Steam game ID}
+
+\item{count}{number of news entries to return}
 }
 \description{
 Data frame for steam game news

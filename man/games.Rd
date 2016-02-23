@@ -6,6 +6,11 @@
 \usage{
 games(key, id = "76561197973625640")
 }
+\arguments{
+\item{key}{Steam API key}
+
+\item{id}{Steam user ID}
+}
 \description{
 gets steam geames needs a valid steam api key
 }

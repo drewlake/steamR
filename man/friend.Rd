@@ -6,6 +6,11 @@
 \usage{
 friend(key, id = "76561197973625640")
 }
+\arguments{
+\item{key}{Steam API key}
+
+\item{id}{Steam user id}
+}
 \description{
 get friends list needs key
 }

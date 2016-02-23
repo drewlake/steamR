@@ -4,6 +4,7 @@
 #' @export
 #' @import data.table
 #' @import rjson
+#' @param gameid Steam game id
 
 gamedata <- function (gameid = "220") {
 

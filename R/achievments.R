@@ -4,6 +4,8 @@
 #' @export
 #' @import data.table
 #' @import rjson
+#' @param key Steam API key
+#' @param id Steam user ID
 stmAchieve<- function (key,id = "76561197973625640") {
 
   json_file1 <-

@@ -6,6 +6,9 @@
 \usage{
 gamedata(gameid = "220")
 }
+\arguments{
+\item{gameid}{Steam game id}
+}
 \description{
 Data about a specific game
 }

@@ -4,7 +4,10 @@
 \alias{glbachieve}
 \title{Global achievement percentage for a game}
 \usage{
-glbachieve(app = "440")
+glbachieve(gameid = "440")
+}
+\arguments{
+\item{gameid}{Steam game ID}
 }
 \description{
 Global achievement percentage for a game
