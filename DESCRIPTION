@@ -2,7 +2,7 @@ Package: SteamR
 Title: Steam API for R
 Version: 0.0.0.4
 Authors@R: person("Andrew", "Lake", email = "lakegm@gmail.com", role = c("aut", "cre"))
-Description: Retieves and anaysis data from Valve's Steam network.
+Description: Retrieves data from Valve's Steam network.
 Depends:
     R (>= 3.2.2)
 Imports:data.table,
