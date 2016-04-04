@@ -2,11 +2,15 @@ Package: SteamR
 Title: Steam API for R
 Version: 0.0.0.4
 Authors@R: person("Andrew", "Lake", email = "lakegm@gmail.com", role = c("aut", "cre"))
-Description: Retrieves data from Valve's Steam network.
+Description: Retrieves data from Valve's Steam network. Steam is an internet based game distribution network, 
+            it hold data about games and users. Steam API is a way of accessing that data. This package uses 
+            the API to get the data in R. A steam API key is needed for most of the functions and can be obtained
+            from https://steamcommunity.com/dev/apikey.
 Depends:
     R (>= 3.2.2)
-Imports:data.table,
+Imports: data.table,
       rjson
 License: GPL-2
 LazyData: true
 RoxygenNote: 5.0.1
+Suggests: testthat

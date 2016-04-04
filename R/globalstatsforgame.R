@@ -1,7 +1,7 @@
 
 #' Global stats for a game
 #' 
-#' Returns list for gloabl stats for a game
+#' Returns list for gloabal stats for a game
 #' @export
 #' @import data.table
 #' @import rjson

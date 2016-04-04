@@ -6,7 +6,7 @@
 #' @import rjson
 #' @param key Steam API key
 #' @param id Steam user ID
-stmAchieve<- function (key,id = "76561197973625640") {
+stmachieve<- function (key,id = "76561197973625640") {
 
   json_file1 <-
     "http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key="

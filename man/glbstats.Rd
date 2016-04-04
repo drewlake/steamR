@@ -12,6 +12,6 @@ glbstats(gameid = "17740", stat = "global.map.emp_isle")
 \item{stat}{name of achievent}
 }
 \description{
-Returns list for gloabl stats for a game
+Returns list for gloabal stats for a game
 }
 
